@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Learning 1.1</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#form-contact" class="nav-link">CONTACT</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul>
+        </div>
+        </header>
+      <main>
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="img/logo_transparent_background.png" class="d-block mx-lg-auto img-fluid" alt="kaffe " width="300" height="300" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">CSS LEARNING EASY MODE</h1>
+                <p class="lead">Bootstrap er veldig lett når man kan ta copy paste!</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">but</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">ton</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form id="form-contact" class ="w-50 m-auto">
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form4Example1" class="form-control" />
+              <label class="form-label" for="form4Example1">Name</label>
+            </div>
+          
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" />
+              <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+          
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+              <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+              <label class="form-label" for="form4Example3">Message</label>
+            </div>
+          
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+              <label class="form-check-label" for="form4Example4">
+                Send me a copy of this message
+              </label>
+            </div>
+          
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+          </form>
+        
+      </main>
+
+      <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <p class="text-muted">&copy; 2022</p>
+          </div>
+      
+          <div class="col mb-3">
+      
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+        </footer>
+      </div>
+        
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
